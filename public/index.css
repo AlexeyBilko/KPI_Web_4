@@ -125,7 +125,11 @@ body {
   box-shadow: -20px 0 40px var(--side-shadow);
 }
 
-@media screen and (max-width: 1000px) {
+.navigation input:focus{
+  display: none;
+}
+
+@media screen and (max-width: 800px){
   .hamburger,
   .change-menu-style{
     display: block;
@@ -140,17 +144,19 @@ body {
     position: fixed;
     font-size: 15px;
     top: 0;
-    right: -300px;
+    right: -850px;
     background: var(--header-bg-color);
-    width: 250px;
+    width: 800px;
     height: 100%;
     padding-top: 50px;
   }
   .menu li{
+    text-align: center;
     width: 100%;
   }
   .menu li a
   .menu li a:hover{
+    text-align: center;
     padding: 10px;
   }
 }
