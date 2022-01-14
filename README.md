@@ -2,4 +2,4 @@
 
 ## Завдання - зробити бургер меню і слайдер
 
-## Деплой - [Click here](https://web-kpi-2.vercel.app)
+## Деплой - [Click here](https://kpi-web-4.vercel.app)
